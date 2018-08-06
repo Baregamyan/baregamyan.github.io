@@ -59,7 +59,10 @@ slider3.addEventListener("change", function () {
 			slidertwo.classList.remove("slider-shower");
 		  labeltwo.classList.remove("checked");
 		if (!sliderthree.classList.contains("slider-shower"))
+      console.log("before");
 			sliderthree.classList.add("slider-shower");
+      console.log("add slider shower class");
 		  labelthree.classList.add("checked");
+      console.log("add checked")
 	}
 })
